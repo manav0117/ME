@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Project</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        .header
+        {
+            text-align: center;
+            background-color:;
+            padding : 20px;
+            margin:0;
+            background-color:darkcyan;
+        }
+        ul
+        {
+            list-style-type: none;
+            margin : 0;
+            padding : 0;
+            overflow: hidden;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        
+        
+       li a,.btn
+       {
+           text-decoration: none;
+           color: white;
+           padding : 20px;
+           text-align: center;
+           display: inline-block;
+       }
+       li a:hover,.btn:hover
+       {
+           background-color:red;
+           color :black;
+       }
+       li.dropdown
+       {
+           display: inline-block;
+       }
+       .content
+       {
+           display: none;
+           text-decoration: none;
+           position: absolute;
+           z-index: 1;
+           box-shadow: 2px solid blanchedalmond;
+           max-width: 160px;
+         }
+        
+         .content a
+         {
+             padding : 20px;
+             text-align: left;
+             color :white;
+             background-color:black;
+             text-decoration: none;
+         }
+         .dropdown:hover .content a:hover
+         {
+             background-color: cadetblue;
+         }
+         .dropdown:hover .content
+         {
+             display: block;
+         }
+         div.row
+         {
+             display: flex;
+             flex-wrap: wrap;
+
+         }
+         div.row .side
+         {
+             flex:30%;
+             background-color: rgb(196, 189, 189);
+             padding: 20px;
+             font-size: 1.7rem;
+             border:2px solid black;
+            
+         }
+         div.row .section
+         {
+             flex:70%;
+             padding: 20px;
+             background-color:#D1E8E2;
+             font-size: 1.7rem;
+             border:2px solid black;
+         }
+         div.name
+         {
+            color :black;
+            font-size: 1.5rem;
+            text-decoration: underline;
+
+         }
+         div.footer
+         {
+             background-color: black;
+         }
+         div.row h1
+         {
+             text-align: center;
+         }
+         
+         div.number
+         {
+             margin-left:140px;
+             font-size: 1.3rem;
+             color : white;
+         }
+         div.reach
+         {
+             color : white;
+             text-align: center;
+             
+         }
+
+        
+    </style>
+</head>
+<body>
+    <!--Heading portion-->
+    <div class="header"><h1>ME Developers</h1></div>
+    <!--Navigation bar-->
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Help</a></li>
+                <!--Dropdown-->
+                <li class="dropdown">
+                    <a href="#" class="btn">About us</a>
+                    <div class="content">
+                        <a href="#">2021 Best Company of the year</a>
+                        <a href="#">2019 Best Company of the year</a>
+                        <a href="#">2020 Runnerup's </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!--Flex Contents-->
+    </div>
+        <div class="row">
+            <div class="side">
+                <h1>Serives</h1>
+                <p>We provide the best content and are in service for more then 20 years.If you want to take a free trial then you can fill the below mentioned form.</p>
+                <a href="payment gateway.html" target="_blank">Click here*</a>
+                
+            </div>
+            <div class="section"><h1>Company Details</h1>
+            <p>Company is in collabaration with Ekta Developers.We develop the contents and Ekta Developers host and handle our websites and projects.</p>
+            <div class="image"><img src="images/ekta.jpeg" alt="" width="150px"></div>
+            <div class="name">Ekta Developers CEO</div>        
+            <div class="image"> <img src="images/manav.jpeg" alt="" width="150px"></div>
+            <div class="name">ME Developers CEO</div>
+        </div>
+        </div>
+        <!--Footer-->
+    <div class="footer">
+        <div class="reach">
+            <h2>Social Media Handles</h2>
+        </div>
+        
+        <footer>
+
+            <div class="hide"><a href="http://www.instagram.com/ll_manav01_ll" target="_blank">
+                <img src="images/social-media-6249432_1920.jpg" alt="" width="80px">
+        
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="images/phone image.jpeg" alt="" width="80px">
+        <div class="number">9313137527</div>
+        
+        
+        </footer>
+    </div>
+</body>
+</html>
