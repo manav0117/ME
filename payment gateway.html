@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Gateway</title>
+</head>
+<body>
+<p>Card type:
+   <select name="card_type" id="card_type"required>
+   <option value="">--select a card type--</option>
+   <option value="visa">visa</option>
+   <option value="mastercard">mastercard</option>
+   <option value="debit card">debit card</option>
+   <option value="credit card">credit card</option>
+   </select>
+  </p>
+ <p>Card number : <input type="number" name="number" required></p>
+ <p>Name on card : <input type="text"  name="name_card" required></p>
+ <p>Enter CVV : <input type="password" name = "password" required></p>
+  <p>Valid through : <input type="date" name="exp_date" required></p>
+  <input type="submit" value="Pay now">
+  
+  </body>
+  </html>
